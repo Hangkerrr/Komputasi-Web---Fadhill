@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #333;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 30px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav-link {
+  float: left;
+  margin-right: 20px;
+}
+
+.nav-link a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.nav-link a:hover {
+  background-color: #111;
+  font-weight: bold;
+}
+
+.section1 img {
+  width: 1349px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.section2 {
+  margin-top: 50px;
+}
+
+.section2 h1 {
+  padding: 5px 30px;
+  padding-bottom: 30px;
+  font-size: 50px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.box {
+  padding: 30px;
+  display: flex;
+}
+
+.img-mini img {
+  border-radius: 30px;
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.subtext {
+  margin-left: 50px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.subtext h3 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subtext p {
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.subtext a {
+  color: white;
+  font-size: 20px;
+}
+
+.subtext a:hover {
+  color: #111;
+  text-decoration: none;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #111;
+  color: white;
+  text-align: center;
+}
+
+.footer-links {
+  padding: 20px;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: red;
+}
+
+.footer-bottom {
+  padding-bottom: 20px;
+}
+
+.news-content h1 {
+  padding: 5px 30px;
+  padding-bottom: 30px;
+  font-size: 25px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+}
+
+.img-big img {
+  width: 1200px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.news-text {
+  padding-top: 20px;
+  width: 1200px;
+  text-align: justify;
+}
